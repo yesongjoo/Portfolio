@@ -1,0 +1,212 @@
+/* **************************************** */
+/*  Header */
+/* **************************************** */
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 9.6rem;
+  /* background: pink; */
+  align-items: center;
+}
+
+.logo {
+  font-size: 3rem;
+  display: inline-block;
+}
+/* **************************************** */
+/*  Navigation */
+/* **************************************** */
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 4.8rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 2.4rem;
+  font-weight: 500;
+  transition: all 0.3s;
+  color: var(--text1);
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: var(--accent);
+}
+/* **************************************** */
+/*  Hero Section */
+/* **************************************** */
+.section-hero {
+  padding: 8rem 0 9.6rem 0;
+}
+
+/* .hero-img-box img {
+  width: 100%;
+} */
+
+.hero-content {
+  font-size: 2rem;
+  width: 50rem;
+  margin-bottom: 6.4rem;
+  line-height: 1.55;
+  color: var(--text2);
+}
+
+.social-links {
+  list-style: none;
+  display: flex;
+  gap: 2.4rem;
+  /* display: inline-block; */
+}
+
+.social-link {
+  color: var(--text1);
+}
+.social-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+}
+
+.profile-img {
+  z-index: -1;
+  height: 70rem;
+}
+
+/* **************************************** */
+/*  skills Section */
+/* **************************************** */
+.section-skills {
+  padding: 8rem 0;
+  border-top: 1px solid #eee;
+}
+.skills-heading {
+  display: block;
+}
+
+.skills-content {
+  font-size: 2rem;
+}
+
+/* **************************************** */
+/*  projects Section */
+/* **************************************** */
+.section-projects {
+  padding: 8rem 0;
+  border-top: 1px solid #eee;
+}
+
+.projects-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.heading-secondary {
+  display: block;
+}
+
+.projects-description {
+  font-size: 2rem;
+  width: 50rem;
+  margin-bottom: 6.4rem;
+  line-height: 1.55;
+  color: var(--text2);
+}
+
+.project-img {
+  width: 88%;
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+.project-tools {
+  display: flex;
+  flex-direction: row;
+  gap: 2.4rem;
+}
+
+.project-tool {
+  display: inline-block;
+  font-size: 1.8rem;
+}
+
+/* **************************************** */
+/* contact Section */
+/* **************************************** */
+
+.section-contact {
+  background-color: var(--bg-light);
+  padding: 8rem 0;
+}
+
+.contact-content {
+  font-size: 2rem;
+  width: 50rem;
+  margin-bottom: 6.4rem;
+  line-height: 1.55;
+  color: var(--text2);
+}
+
+.cta-form label {
+  display: block;
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+}
+
+.cta-form input {
+  width: 100%;
+  padding: 0.4rem;
+  color: inherit;
+  font-size: 1.8rem;
+  font-family: inherit;
+  background-color: initial;
+  border: initial;
+  border-bottom: 1px solid var(--text2);
+  margin-bottom: 3.2rem;
+}
+
+#message {
+  height: 10rem;
+}
+
+.send-message-btn {
+  font-size: 2rem;
+  color: var(--text1);
+  border: initial;
+  background-color: initial;
+  border-bottom: 2px solid var(--accent);
+  padding: 1.3rem 0;
+  cursor: pointer;
+}
+
+/* **************************************** */
+/* footer */
+/* **************************************** */
+
+.footer {
+  background-color: var(--bg-light);
+  border-top: ;
+}
+
+.border-top {
+  padding: 4.8rem 0;
+  border-top: 1px solid #eee;
+}
+
+.copyright {
+  font-size: 1.6rem;
+  display: inline-block;
+}
+
+.footer-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
